@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!.py
+!.sh
+!.R
+!.awk
+!.ipynb
+
+# ...even if they are in subdirectories
+!*/
+
+archive/
