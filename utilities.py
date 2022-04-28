@@ -53,7 +53,10 @@ def formatP(p):
 
 def formatCell(cell):
     """ Return formatted cell names """
-    names = {'H1hESC': 'H1-hESC', 'IMR90': 'IMR-90', 'GM12878': 'GM12878'}
+    names = ({
+        'H1hESC': 'H1-hESC', 'IMR90': 'IMR-90',
+        'GM12878': 'GM12878', 'HB2': '1-7HB2'
+    })
     if cell in names:
         return names[cell]
     else:
