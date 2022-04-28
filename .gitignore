@@ -9,6 +9,8 @@
 !*.awk
 !*.ipynb
 !*.bin
+!*.svg
+
 # ...even if they are in subdirectories
 !*/
 
